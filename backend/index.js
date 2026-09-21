@@ -82,5 +82,5 @@ app.use((err, _req, res, _next) => {
 
 // ─── Start ────────────────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n✅ Secure Entry Tracking backend → http://localhost:${PORT}`);
+  console.log(`\n Secure Entry Tracking backend → http://localhost:${PORT}`);
 });
